@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Tribute Page</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://gist.githubusercontent.com/AfifahA/6467b0f41a5d01729dabb2607ba9f220/raw/86c07004a3c48760c779b2be13af4d8942652ad9/leaf.svg"
+        alt="branch with leaves logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#ingredients">ingredients</a></li>
+        <li><a class="nav-link" href="#showcase">products</a></li>
+        <li><a class="nav-link" href="#kits">kits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+  
+    <section id="hero">
+    <h2>Luxurious. Powerful. Ethical.</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Try a sample kit!" class="btn" />
+    </form>
+  </section>
+  
+  <div class="container">
+    <section id="ingredients">
+      <div class="grid">
+        <img src="https://user-images.githubusercontent.com/92115359/145502066-ebcdf417-f347-4ec4-bbbe-05f28bb4a88c.png" class="icon">
+        <div class="desc">
+          <h2>Cleanse</h2>
+          <p>
+            Our line starts with a cleanser jam packed with the most powerful ingredients you need to wash away the day. The main component in our patented lab-created formula is salicylic acid. A natural plant compound that act as an anti-inflammatory agent. It has a unique cleansing ability to shed dead cells from the top layer of the skin which helps to speed up the healing process and show the best version of you. 
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <img src="https://user-images.githubusercontent.com/92115359/145504188-3e90b886-ac07-48af-89af-f339d647dede.png" class="icon">
+        <div class="desc">
+          <h2>Rejuvenate</h2>
+          <p>
+            Next is to rejuvinate the skin and deliver high concentrations of specific active ingredidents. Depending on your particular area of concern, you will recieve a serum that is targeted for you. Our beauty engineers and ethical testing system ensure that our serums are of the best quality. We use only the purest ingredients and evaluate them through our lengthy experimental process to deliver clincal results.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <img src="https://user-images.githubusercontent.com/92115359/145504344-944e2834-42b1-4b99-9c65-cea4850fcd48.png" class="icon">
+        <div class="desc">
+          <h2>Moisturize</h2>
+          <p>
+            To finish off the night and lock all of those goodies in, apply our moisturizer with the most lux and powerful of ingredients - our highest concentrated VELSKI™. This signature ingredient has been condensed to its purest form for maximum hydration and plumpness while built to work for all skin types. Say goodbye to dehyrated skin forever and hello to the new you!
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="showcase">
+      <iframe 
+              id="video"
+              height="315"
+              src="https://www.youtube.com/embed/jH7nf3sg--c?controls=0" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+       </iframe>
+    </section>
+    
+    <div class="view" id="view">
+      <h2>View other kits!</h2>
+    </div>
+    
+    <section id="kits">
+      <div class="product" id="kit1">
+        <div class="type">face kit</div>
+        <h2>$240</h2>
+        <ol>
+          <li>Oil Cleanser.</li>
+          <li>Cream Cleanser.</li>
+          <li>Serum.</li>
+          <li>Moisturizer.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div> 
+        
+      <div class="product" id="kit2">
+        <div class="type">body kit</div>
+        <h2>$180</h2>
+        <ol>
+          <li>Body Scrub.</li>
+          <li>Shower gel.</li>
+          <li>Body Moisturizer.</li>
+          <li>Vitamen E Oil.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      
+      <div class="product" id="kit3">
+        <div class="type">hair kit</div>
+        <h2>$160</h2>
+        <ol>
+          <li>Shampoo.</li>
+          <li>Conditioner.</li>
+          <li>Treatment Serum.</li>
+          <li>Hair Oil.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+  </div>
+</div>
+</html>
