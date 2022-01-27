@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+</head>
+  
+<main>
+  <header>
+    <h1 id="title">Library Survey</h1>
+  
+    <p id="description">Help us improve your local library!</p>
+  </header>
+  
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required/>
+    </div>
+    
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your email"
+        required/>
+    </div>    
+
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="8"
+        max="105"
+        class="form-control"
+        placeholder="Age"
+        required/>
+    </div>       
+    
+    <div class="form-group">
+      <p>How often do you visit the library?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select</option>
+        <option value="daily">Daily</option>
+        <option value="week-several">Several times a week</option>
+        <option value="week-once">Once a week</option>
+        <option value="month-several">Several times a month</option>
+        <option value="month-once">Once a month</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>When you visit, are you usually able to find what you are looking for?</p>
+      <label>
+        <input
+          name="accessibility"
+          value="always"
+          type="radio"
+          class="input-radio"
+          checked
+        />Always</label>
+      <label>
+        <input
+          name="accessibility"
+          value="sometimes"
+          type="radio"
+          class="input-radio"
+        />Sometimes</label>
+      <label>
+        <input
+          name="accessibility"
+          value="rarely"
+          type="radio"
+          class="input-radio"
+        />Rarely</label>      
+      <label>
+        <input
+          name="accessibility"
+          value="never"
+          type="radio"
+          class="input-radio"
+        />Never</label>
+      
+    <div class="form-group">
+      <p>Do you usually find the books and other materials that you are looking for in the library?</p>
+      <label>
+        <input
+          name="accessibility2"
+          value="always"
+          type="radio"
+          class="input-radio"
+          checked
+        />Always</label>
+      <label>
+        <input
+          name="accessibility2"
+          value="sometimes"
+          type="radio"
+          class="input-radio"
+        />Sometimes</label>
+      <label>
+        <input
+          name="accessibility2"
+          value="rarely"
+          type="radio"
+          class="input-radio"
+        />Rarely</label>
+      <label>
+        <input
+          name="accessibility2"
+          value="never"
+          type="radio"
+          class="input-radio"
+        />Never</label>
+      
+    <div class="form-group">
+      <p>Please check all of the reasons you visit the library:
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="reasons"
+          value="check/return"
+          type="checkbox"
+          class="input-checkbox"
+        />to check out / return books</label>
+      <label>
+        <input
+          name="reasons"
+          value="computers"
+          type="checkbox"
+          class="input-checkbox"
+        />to use the computers</label>
+      <label>
+        <input
+          name="reasons"
+          value="book-recs"
+          type="checkbox"
+          class="input-checkbox"
+        />to get a book recommendation</label>
+      <label>
+        <input
+          name="reasons"
+          value="research/info"
+          type="checkbox"
+          class="input-checkbox"
+        />to do research / find information</label>
+      <label>
+        <input
+          name="reasons"
+          value="class"
+          type="checkbox"
+          class="input-checkbox"
+         />to take a class</label>    
+      
+    <div class="form-group">
+      <p>Anything you would like to see improve?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+  </form>
+  
+</main>
+</html>
