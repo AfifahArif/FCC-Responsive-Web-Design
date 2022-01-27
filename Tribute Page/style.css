@@ -1,0 +1,58 @@
+body {
+  background-color: #232946;
+  line-height: 1.5rem;
+  padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #fffffe;
+}
+
+#img-div {
+  background: white;
+  text-align: center;
+  padding: 15px;
+  max-width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  box-shadow: 5px 5px #b8c1ec;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#img-caption {
+  padding: 10px;
+}
+
+hr {
+  border-top: 4px dashed #b8c1ec;
+  border-bottom: 1px dashed #232946;
+  margin-top: 15px;
+  width: 85%;
+}
+
+#tribute-info {
+  color: #b8c1ec;
+  width: 75%;
+  margin: 0 auto 0 auto; 
+  margin-top: 3%;
+  margin-bottom: 5%;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #eebbc3;
+  color: #232946;
+  cursor: pointer;
+  padding: 20px 20px;
+  border-radius: 25px;
+}
