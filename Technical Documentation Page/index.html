@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Technical Documentation Page</title>
+    <meta charset="UTF-8">
+</head>
+  
+<!-- NAVIGATION BAR -->
+<nav id="navbar">
+  <header>HTML Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#HTML-Elements">HTML-Elements</a></li>
+    <li><a class="nav-link" href="#Comments">Comments</a></li>
+    <li><a class="nav-link" href="#HTML5-Elements">HTML5-Elements</a></li>
+    <li><a class="nav-link" href="#External-Pages">External-Pages</a></li>
+    <li><a class="nav-link" href="#Internal-Pages">Internal-Pages</a></li>
+    <li><a class="nav-link" href="#Lists">Lists</a></li>
+    <li><a class="nav-link" href="#Forms">Forms</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content. For example, different elements can describe text as a heading, paragraph, or list item. These are the most common HTML elements — the building blocks of any webpage.
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="HTML-Elements">
+    <header>HTML-Elements</header>
+    <article>
+      <p>
+         HTML has basic tags. Here are a few of the most commonly used ones:
+        <ul>
+          <li>&lt; h1 &gt; - &lt; h6 &gt;</li>
+          <li>&lt; p &gt;</li>
+          <li>&lt; img &gt;</li>
+        </ul>
+      </p>
+      <p>
+        Opening tags look like:
+          <code>&lt; h1 &gt;</code>
+        and closing tags look like:
+          <code>&lt; /h1 &gt;</code>
+        The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag. Note: All HTML tags are written in lowercase. 
+        <ul>
+          <li>
+            <b>&lt; h1 &gt;</b> tags are usually used for main headings.
+          </li>
+          <li>
+            <b>&lt; h2 &gt;</b> tags are usually heading for subheadings.
+          </li>
+          <li>
+            <b>&lt; h3 &gt; &lt; h4 &gt; &lt; h5 &gt; &lt; h6 &gt;</b> tags are used to indicated different levels of subheadings.
+          </li>
+        </ul>
+      </p>
+      
+      <p>
+        p element tags are used to create paragraph elements like so:
+        <code>&lt; p &gt; &lt; /p &gt;</code> 
+      </p>
+      
+      <p>
+        The &lt; img &gt; tag allows you to add images to your website and point to a specific images's URL using the src attribute. All img elements must have an alt attribute to improve accessibilty for screen readers and will be displayed if the image fails to load. Note: this tag is self-closing.
+      </p>
+      
+      <p>
+        Here is an example:
+        <code>&lt; img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." &gt;</code>
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Comments">
+    <header>Comments</header>
+    <article>
+      <p>
+        Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user. Commenting is also a convenient way to make code inactive without having to delete it entirely.
+      </p>
+        
+      <p>
+        In order to start a comment you need to use: 
+        <code>&lt; !--</code>
+        and to end a comment you need to use:
+        <code>-- &gt;</code>
+      </p>
+    </article>
+  </section>
+
+  <section class="main-section" id="HTML5-Elements">
+    <header>HTML5-Elements</header>
+    <article>
+      <p>
+        HTML5 introduces more descriptive HTML tags. These include:
+        <ul>
+          <li>&lt; main &gt;</li>
+            <ul>
+              <li>The &lt; main &gt; HTML5 tag helps search engines and other developers find the main content of your page.</li>
+            </ul>
+          <li>&lt; header &gt;</li>
+            <ul>
+              <li>The &lt; header &gt; element represents a container for introductory content or a set of navigational links.</li>
+            </ul>
+          <li>&lt; footer &gt;</li>
+            <ul>
+              <li>The &lt; footer &gt; tag defines a footer for a document or section.</li>
+            </ul>
+          <li>&lt; nav &gt;</li>
+            <ul>
+              <li>The &lt; nav &gt; tag defines a set of navigation links. Notice that NOT all links of a document should be inside a &lt; nav &gt; element. The &lt; nav &gt; element is intended only for major block of navigation links.</li>
+            </ul>
+          <li>&lt; video &gt;</li>
+            <ul>
+              <li>The &lt; video &gt; tag is used to embed video content in a document, such as a movie clip or other video streams.</li>
+            </ul>
+          <li>&lt; article &gt;</li>
+            <ul>
+              <li>The &lt; article &gt; tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.</li>
+            </ul>
+          <li>&lt; section &gt;</li>
+            <ul>
+              <li>The &lt; section &gt; tag defines a section in a document.</li>
+            </ul>
+        </ul>
+        These tags give a descriptive structure to your HTML, make your HTML easier to read, and help with Search Engine Optimization (SEO) and accessibility.
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="External-Pages">
+    <header>External-Pages</header>
+    <article>
+      <p>
+        You can link to external pages with anchor elements by using &lt; a &gt; with and href attribute like so:
+        <code>&lt; a href="https://www.website.com"&gt; Click link! &lt; /a &gt;</code>
+        Then your browser will display the text as a link that you can click on. It will lead you to the url you attributed.
+      </p>
+    </article>
+  </section> 
+  
+  <section class="main-section" id="Internal-Pages">
+    <header>Internal-Pages</header>
+    <article>
+      <p>
+        You can link to an internal section of a webpage with anchor elements by using &lt; a &gt;. To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+      </p>
+      
+      <p>
+        Here is an example:
+        <code>&lt; a href="#contacts-header" &gt; Contacts &lt; /a &gt;</code>
+        When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts heading element.
+      </p>
+    </article>
+  </section> 
+
+  <section class="main-section" id="Lists">
+    <header>Lists</header>
+    <article>
+      <p>
+        HTML has a special element for creating unordered lists, or bullet point style lists. Unordered lists start with an opening:
+        <code>&lt; ul &gt;</code>
+        followed by:
+        <code>&lt; li &gt;</code>
+      </p>
+      
+      <p>
+        Here is a full example:
+        <code> &lt; ul &gt; <code> &lt; li &gt; milk &lt; /li &gt;
+          &lt; li &gt; cheese &lt; /li &gt; </code> &lt; /ul &gt; </code>
+      </p>
+      
+      <p>
+        HTML has another special element for creating ordered lists, or numbered lists. Ordered lists start with an opening &lt; ol &gt; element, followed by any number of &lt; li &gt; elements. Finally, ordered lists are closed with the &lt; /ol &gt; tag.
+      </p>
+      
+      <p>
+        For example:
+        
+        <code> &lt; ol &gt; <code> &lt; li &gt; Garfield &lt; /li &gt;
+          &lt; li &gt; Sylvester &lt; /li &gt; </code> &lt; /ol &gt; </code>
+      </p>
+    </article>
+  </section>
+
+  <section class="main-section" id="Forms">
+    <header>Forms</header>
+    <article>
+      <p>
+        You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.
+      </p>
+      <p>
+        For example:
+        <code> &lt; form action="/url-where-you-want-to-submit-form-data" &gt; 
+          <code> &lt; input &gt; </code> &lt; /form &gt; </code>
+      </p>
+      
+      <p>
+        You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out. For example, if you wanted to make a text input field required, you can just add the attribute required within your input element, like this:
+        <code> &lt; input type="text" required &gt; </code>  
+      </p>
+      
+      <p>
+        You can use radio buttons for questions where you want the user to only give you one answer out of multiple options. Radio buttons are a type of input. Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
+      </p>
+      <p>
+        All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+      </p>
+      <p>
+        Here's an example of a radio button:
+        <code> &lt; label &gt; <code> &lt; input type="radio" name="indoor-outdoor" &gt; Indoor </code> &lt; /label &gt; </code>
+      </p>
+      
+     <p>
+        Forms commonly use checkboxes for questions that may have more than one answer. Checkboxes are a type of input. Each of your checkboxes can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the checkbox input with the label element surrounding it. All related checkbox inputs should have the same name attribute. It is considered best practice to explicitly define the relationship between a checkbox input and its corresponding label by setting the for attribute on the label element to match the id attribute of the associated input element.
+      </p>
+      <p>
+        Here's an example of a checkbox:
+
+
+        <code> &lt; label for="loving" &gt; <code> &lt; input id="loving" type="checkbox" name="personality" &gt; Loving </code> &lt; /label &gt; </code>
+      </p>
+      
+      
+      <p>
+        You can add a submit button to the form. Here's an example:
+        <code> &lt; button type="submit" &gt; this button submits the form &lt; /button &gt; </code>  
+      </p>
+    </article>
+  </section>
+
+   <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <p>All the documentation in this page is taken from </p>
+        <a href="https://www.freecodecamp.org/learn/" target="_blank"> freecodecamp.org</a
+    </article>
+  </section>
+</main>
